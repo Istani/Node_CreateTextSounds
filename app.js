@@ -4,11 +4,7 @@ var software = package_info.name + " (V " + package_info.version + ")";
 console.log(software);
 console.log("=".repeat(software.length));
 
-// WORKS NOT ON LINUX... WHY?
 const say = require("say");
 
-//say.export("Never gonna give you up.", null, 1, "tmp/Never gonna give you up.wav");
-
-say.export("Was fuer ein geiles Game! Das klingt nach einer Runde Teemo Smite!", null, 1, "tmp/gege.wav");
-say.export("Zero Peel!", null, 1, "tmp/peel.wav");
-say.export("Party @everyone!", null, 1, "tmp/party.wav");
+say.export("1 Euro und 10 Cent", null, 1, "tmp/110e.wav");
+say.export("25", null, 1, "tmp/25.wav");
